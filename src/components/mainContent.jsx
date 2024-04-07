@@ -4,7 +4,7 @@ import React from 'react'
 const MainContent = () => {
     return (
         <div>
-      <div className=" grid grid-cols-2  gap-2 ">
+      <div className=" grid grid-cols-2  gap-2 mt-4 ">
           <div className="rounded-3xl overflow-hidden shadow-lg bg-cover bg-center relative m-2" 
          style={{ backgroundImage: "url('/path/to/refining-room-image.png')" }}> {/* Replace with the actual path */}
       <div className="bg-black bg-opacity-40 flex items-center justify-center h-full p-4">
@@ -15,7 +15,7 @@ const MainContent = () => {
     <div className="rounded-3xl overflow-hidden shadow-lg bg-cover bg-center relative m-2" 
          style={{ backgroundImage: "url('/path/to/refining-room-image.png')" }}> {/* Replace with the actual path */}
       <div className="bg-black bg-opacity-40 flex items-center justify-center h-full p-4">
-        <h2 className="text-white text-2xl md:text-3xl font-bold uppercase">Explore pets</h2>
+        <h2 className="text-white text-2xl md:text-3xl font-bold uppercase">Explore Missions</h2>
       </div>
     </div>
 
@@ -34,7 +34,7 @@ const MainContent = () => {
     </div>
       </div>
 
-<div className="bg-yellow-300 p-4 rounded-lg shadow-md max-w-md mx-auto mt-7 m-2" > {/* Replace with the actual path */}
+<div className="bg-yellow-300 p-4 rounded-lg shadow-md max-w-md mx-auto mt-7 m-2 rounded-2xl" > {/* Replace with the actual path */}
 <div className="text-black text-center">
   <p className="text-xl font-semibold">100.0% Filled</p>
   <div className="flex justify-between items-center ">
